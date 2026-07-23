@@ -1,0 +1,649 @@
+{
+  "users": [
+    {
+      "fullName": "Alex Carter",
+      "email": "alex.carter@edu.org",
+      "phoneNumber": "+1 (555) 349-2093",
+      "college": "Global Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=256&h=256&fit=crop",
+      "registrationDate": "2026-07-15",
+      "status": "Active",
+      "password": "password123",
+      "passwordHash": "$2b$10$YDxHmUzei5AtA2wlPneWFuTcm/CQj5cYrqVlw6FAejj.nKt3bcSbq",
+      "role": "student"
+    },
+    {
+      "fullName": "Sarah Connor",
+      "email": "sarah@univ.edu",
+      "phoneNumber": "+1 (555) 888-1111",
+      "college": "State Engineering University",
+      "department": "Information Technology",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=256&h=256&fit=crop",
+      "registrationDate": "2026-07-16",
+      "status": "Active",
+      "password": "password123",
+      "passwordHash": "$2b$10$xjDj7Xv04gvbtjcQXvLTh.BWQdfzx1cGh9Cs0nAOIBboA3iIeHzSa",
+      "role": "student"
+    },
+    {
+      "fullName": "Robert Chen",
+      "email": "robert@tech.edu",
+      "phoneNumber": "+1 (555) 777-2222",
+      "college": "State Engineering University",
+      "department": "Computer Science",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=256&h=256&fit=crop",
+      "registrationDate": "2026-07-17",
+      "status": "Active",
+      "password": "password123",
+      "passwordHash": "$2b$10$HhSyHql8c923sMNjnrF/0uHA6w.xxu9Blvle5r.uaw8qBhYkJ5TNq",
+      "role": "student"
+    },
+    {
+      "fullName": "Admin User",
+      "email": "admin@quiz.com",
+      "phoneNumber": "+1 (555) 999-0000",
+      "college": "System Administration",
+      "department": "Management",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=256&h=256&fit=crop",
+      "registrationDate": "2026-01-01",
+      "status": "Active",
+      "passwordHash": "$2b$10$3j5.ZSMUzDOX93Abhveuu.vOSOw7g4S.dBytn5CHeXhWycjs31Fam",
+      "role": "admin"
+    },
+    {
+      "fullName": "Maha",
+      "email": "maha@gmail.com",
+      "phoneNumber": "1234567899",
+      "college": "vsb college",
+      "department": "Electrical Engineering",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=256&h=256&fit=crop",
+      "registrationDate": "2026-07-23",
+      "status": "Active",
+      "passwordHash": "$2b$10$kawjjeHCzJmKMMuAUSxlM.U0W9bEKmLxbnuptiO2cPsC5oApUNVbK",
+      "role": "student"
+    }
+  ],
+  "categories": [
+    {
+      "id": "java",
+      "name": "Java",
+      "description": "Core Java, OOPs concepts, multithreading & collections framework",
+      "iconName": "Coffee",
+      "questionCount": 3,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "description": "Dynamic scripting, data structures, decorators & generators",
+      "iconName": "Terminal",
+      "questionCount": 3,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "dbms",
+      "name": "DBMS",
+      "description": "Database normalization, transactions, ACID properties & indexing",
+      "iconName": "Database",
+      "questionCount": 3,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "description": "Complex Joins, subqueries, aggregations & query optimization",
+      "iconName": "FileText",
+      "questionCount": 3,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "html",
+      "name": "HTML",
+      "description": "Semantic elements, accessibility standards & DOM structure",
+      "iconName": "Code",
+      "questionCount": 3,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "description": "Flexbox, Grid systems, responsive styling & CSS variables",
+      "iconName": "Palette",
+      "questionCount": 3,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "description": "ES6+ features, closures, promises, async/await & scope",
+      "iconName": "Cpu",
+      "questionCount": 3,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "description": "Hooks, virtual DOM, state management & component lifecycle",
+      "iconName": "Layers",
+      "questionCount": 3,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "springboot",
+      "name": "Spring Boot",
+      "description": "Dependency injection, REST APIs, JPA/Hibernate & MVC pattern",
+      "iconName": "Box",
+      "questionCount": 3,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "aptitude",
+      "name": "Aptitude",
+      "description": "Quantitative reasoning, logical puzzles, data interpretation",
+      "iconName": "Brain",
+      "questionCount": 3,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "cprogramming",
+      "name": "C Programming",
+      "description": "Pointers, memory allocation, structures & system calls",
+      "iconName": "Cpu",
+      "questionCount": 3,
+      "difficulty": "Advanced"
+    }
+  ],
+  "questions": [
+    {
+      "id": "java-1",
+      "categoryId": "java",
+      "text": "Which of these is not a valid access modifier in Java?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Java supports four access levels: private, package-private (no modifier), protected, and public. \"internal\" is a keyword in Kotlin and C#, but not in Java."
+    },
+    {
+      "id": "java-2",
+      "categoryId": "java",
+      "text": "What is the size of double variable in Java?",
+      "options": [
+        "8 bits",
+        "16 bits",
+        "32 bits",
+        "64 bits"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "In Java, the double data type is a double-precision 64-bit IEEE 754 floating point number."
+    },
+    {
+      "id": "java-3",
+      "categoryId": "java",
+      "text": "Which class is the superclass of all classes in Java?",
+      "options": [
+        "Object",
+        "Class",
+        "String",
+        "System"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Class Object is the root of the class hierarchy in Java. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class."
+    },
+    {
+      "id": "python-1",
+      "categoryId": "python",
+      "text": "Which of the following is an immutable data type in Python?",
+      "options": [
+        "List",
+        "Dictionary",
+        "Set",
+        "Tuple"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Tuples are immutable in Python, meaning once they are created, their elements cannot be changed or re-assigned."
+    },
+    {
+      "id": "python-2",
+      "categoryId": "python",
+      "text": "What does the \"self\" keyword represent in Python class methods?",
+      "options": [
+        "The class itself",
+        "An instance of the class",
+        "A global variable container",
+        "The super parent class"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "\"self\" represents the specific instance of the class being operated on, allowing access to attributes and methods of that instance."
+    },
+    {
+      "id": "python-3",
+      "categoryId": "python",
+      "text": "Which function is used to get the length of a list in Python?",
+      "options": [
+        "length()",
+        "size()",
+        "len()",
+        "count()"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The built-in len() function returns the number of items in an object, such as a list, string, tuple, or dictionary."
+    },
+    {
+      "id": "dbms-1",
+      "categoryId": "dbms",
+      "text": "What does the \"C\" in ACID properties of transaction stand for?",
+      "options": [
+        "Completeness",
+        "Concurrency",
+        "Consistency",
+        "Control"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Consistency ensures that a transaction takes the database from one valid state to another."
+    },
+    {
+      "id": "dbms-2",
+      "categoryId": "dbms",
+      "text": "Which normal form is concerned with multi-valued dependencies?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "4NF"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Fourth Normal Form (4NF) is violated when there are one or more multi-valued dependencies. Eliminating these results in 4NF."
+    },
+    {
+      "id": "dbms-3",
+      "categoryId": "dbms",
+      "text": "What is a foreign key used for?",
+      "options": [
+        "To speed up database searches",
+        "To unique identify rows in the current table",
+        "To establish a relationship between two tables",
+        "To encrypt columns of sensitive data"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "A foreign key is a column or group of columns in one table that references the primary key in another table, creating an active link between them."
+    },
+    {
+      "id": "sql-1",
+      "categoryId": "sql",
+      "text": "Which SQL keyword is used to sort the result-set?",
+      "options": [
+        "SORT BY",
+        "ALIGN BY",
+        "ORDER BY",
+        "GROUP BY"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The ORDER BY keyword is used to sort the result-set in ascending or descending order."
+    },
+    {
+      "id": "sql-2",
+      "categoryId": "sql",
+      "text": "Which join returns all rows when there is a match in either left or right table?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL OUTER JOIN"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "FULL OUTER JOIN returns all matching and non-matching rows from both the left and right tables."
+    },
+    {
+      "id": "sql-3",
+      "categoryId": "sql",
+      "text": "What is the purpose of the SQL HAVING clause?",
+      "options": [
+        "To filter rows before grouping",
+        "To filter groups after the GROUP BY clause is applied",
+        "To join multiple tables conditionally",
+        "To define static value aliases"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions. It filters grouped records."
+    },
+    {
+      "id": "html-1",
+      "categoryId": "html",
+      "text": "Which HTML5 element is used to represent self-contained, independent article content?",
+      "options": [
+        "<section>",
+        "<article>",
+        "<aside>",
+        "<div>"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The <article> tag specifies independent, self-contained content. An article should make sense on its own and should be distributable."
+    },
+    {
+      "id": "html-2",
+      "categoryId": "html",
+      "text": "How do you create an email link in HTML?",
+      "options": [
+        "<a href=\"mailto:xyz@example.com\">",
+        "<a href=\"email:xyz@example.com\">",
+        "<mail href=\"xyz@example.com\">",
+        "<a mailto=\"xyz@example.com\">"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The \"mailto:\" scheme is placed in the href attribute of an <a> element to prompt the browser to open an email composer."
+    },
+    {
+      "id": "html-3",
+      "categoryId": "html",
+      "text": "Which attribute specifies an alternate text for an image if the image cannot be displayed?",
+      "options": [
+        "title",
+        "alt",
+        "src",
+        "longdesc"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The required alt attribute provides alternative text for an image, vital for screen readers and search engines."
+    },
+    {
+      "id": "css-1",
+      "categoryId": "css",
+      "text": "Which CSS property is used to control the layout alignment of elements inside a Flexbox container?",
+      "options": [
+        "align-items",
+        "text-align",
+        "float",
+        "grid-row"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The align-items property specifies the default alignment for items inside the flexible container along the cross axis."
+    },
+    {
+      "id": "css-2",
+      "categoryId": "css",
+      "text": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "CSS stands for Cascading Style Sheets, defining how HTML elements are to be displayed on screen, paper, or in other media."
+    },
+    {
+      "id": "css-3",
+      "categoryId": "css",
+      "text": "How do you select an element with id \"demo\" in CSS?",
+      "options": [
+        ".demo",
+        "#demo",
+        "demo",
+        "*demo"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The hash (#) symbol is used in CSS selectors to match elements with a matching id attribute value."
+    },
+    {
+      "id": "js-1",
+      "categoryId": "javascript",
+      "text": "What is the output of \"typeof null\" in JavaScript?",
+      "options": [
+        "\"null\"",
+        "\"undefined\"",
+        "\"object\"",
+        "\"boolean\""
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "This is a long-standing legacy bug in JavaScript where null is treated as an object type in type inspections."
+    },
+    {
+      "id": "js-2",
+      "categoryId": "javascript",
+      "text": "Which keyword is used to declare block-scoped variables in modern JavaScript?",
+      "options": [
+        "var",
+        "let",
+        "global",
+        "set"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The let and const keywords declare variables that are local to the enclosing block, statement, or expression."
+    },
+    {
+      "id": "js-3",
+      "categoryId": "javascript",
+      "text": "Which method returns a new array with elements that pass a testing function?",
+      "options": [
+        "map()",
+        "forEach()",
+        "reduce()",
+        "filter()"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test."
+    },
+    {
+      "id": "react-1",
+      "categoryId": "react",
+      "text": "Which hook is used to perform side effects in functional React components?",
+      "options": [
+        "useState",
+        "useContext",
+        "useEffect",
+        "useReducer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The useEffect Hook lets you perform side effects (such as data fetching, subscriptions, or manual DOM changes) in function components."
+    },
+    {
+      "id": "react-2",
+      "categoryId": "react",
+      "text": "What must be unique among sibling components in React list rendering?",
+      "options": [
+        "id attribute",
+        "key prop",
+        "class attribute",
+        "index argument"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Keys help React identify which items have changed, are added, or are removed, ensuring stability and performance."
+    },
+    {
+      "id": "react-3",
+      "categoryId": "react",
+      "text": "Can a React component update its own props directly?",
+      "options": [
+        "Yes, always",
+        "No, props are read-only",
+        "Only in class components",
+        "Only if props contain callback functions"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "All React components must act like pure functions with respect to their props. Props are immutable and read-only from the component perspective."
+    },
+    {
+      "id": "springboot-1",
+      "categoryId": "springboot",
+      "text": "Which annotation is the combination of @Configuration, @EnableAutoConfiguration, and @ComponentScan?",
+      "options": [
+        "@SpringBootApplication",
+        "@RestController",
+        "@EnableSpringService",
+        "@ComponentAutoConfig"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The @SpringBootApplication annotation is a convenience annotation that adds all three, booting up auto-configurations and local component scanning."
+    },
+    {
+      "id": "springboot-2",
+      "categoryId": "springboot",
+      "text": "Which port is the default embedded Tomcat server port in Spring Boot?",
+      "options": [
+        "3000",
+        "8080",
+        "9000",
+        "4200"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "By default, Spring Boot starts an embedded Apache Tomcat web server listening on port 8080."
+    },
+    {
+      "id": "springboot-3",
+      "categoryId": "springboot",
+      "text": "What does JPA stand for in Java Spring frameworks?",
+      "options": [
+        "Java Pattern Architecture",
+        "Java Persistence API",
+        "Join Performance Analyst",
+        "Java Partition Application"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "JPA stands for Java Persistence API, which is a standard specification for Object-Relational Mapping (ORM) in Java."
+    },
+    {
+      "id": "aptitude-1",
+      "categoryId": "aptitude",
+      "text": "A car travels at 60 km/h for 2 hours and then 80 km/h for 3 hours. What is its average speed for the entire journey?",
+      "options": [
+        "70 km/h",
+        "72 km/h",
+        "68 km/h",
+        "75 km/h"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Total distance = (60 * 2) + (80 * 3) = 120 + 240 = 360 km. Total time = 2 + 3 = 5 hours. Average speed = 360 / 5 = 72 km/h."
+    },
+    {
+      "id": "aptitude-2",
+      "categoryId": "aptitude",
+      "text": "Complete the number series: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "40",
+        "42",
+        "45",
+        "48"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The differences between consecutive terms are increasing by 2: (6-2)=4, (12-6)=6, (20-12)=8, (30-20)=10. The next difference is 12, so 30 + 12 = 42."
+    },
+    {
+      "id": "aptitude-3",
+      "categoryId": "aptitude",
+      "text": "If 5 men can complete a piece of work in 12 days, how many days will 10 men take to complete the same work?",
+      "options": [
+        "6 days",
+        "24 days",
+        "8 days",
+        "10 days"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Using the work formula M1 * D1 = M2 * D2: 5 * 12 = 10 * D2 => 60 = 10 * D2 => D2 = 6 days."
+    },
+    {
+      "id": "c-1",
+      "categoryId": "cprogramming",
+      "text": "What operator is used to obtain the memory address of a variable in C?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "->"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The address-of operator (&) returns the memory address of its operand variable."
+    },
+    {
+      "id": "c-2",
+      "categoryId": "cprogramming",
+      "text": "Which function is used for dynamic memory allocation in C?",
+      "options": [
+        "malloc()",
+        "alloc()",
+        "new()",
+        "create()"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The malloc() function (memory allocation) allocates a specified block of memory in bytes and returns a void pointer to it."
+    },
+    {
+      "id": "c-3",
+      "categoryId": "cprogramming",
+      "text": "What is the format specifier used to print double variables in C using printf?",
+      "options": [
+        "%d",
+        "%f",
+        "%lf",
+        "%s"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "\"%lf\" is the standard format specifier used to print double values in C, whereas \"%f\" is typically for single-precision float."
+    }
+  ],
+  "attempts": [
+    {
+      "id": "attempt-1",
+      "categoryId": "python",
+      "categoryName": "Python",
+      "date": "2026-07-15",
+      "totalQuestions": 3,
+      "correctAnswers": 3,
+      "wrongAnswers": 0,
+      "score": 3,
+      "percentage": 100,
+      "timeTakenSeconds": 45,
+      "selectedAnswers": {
+        "python-1": 3,
+        "python-2": 1,
+        "python-3": 2
+      },
+      "markedForReview": [],
+      "userEmail": "alex.carter@edu.org"
+    },
+    {
+      "id": "attempt-2",
+      "categoryId": "react",
+      "categoryName": "React",
+      "date": "2026-07-16",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "score": 2,
+      "percentage": 66.7,
+      "timeTakenSeconds": 110,
+      "selectedAnswers": {
+        "react-1": 2,
+        "react-2": 1,
+        "react-3": 0
+      },
+      "markedForReview": [
+        "react-3"
+      ],
+      "userEmail": "alex.carter@edu.org"
+    },
+    {
+      "id": "attempt-3",
+      "categoryId": "dbms",
+      "categoryName": "DBMS",
+      "date": "2026-07-17",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "wrongAnswers": 1,
+      "score": 2,
+      "percentage": 66.7,
+      "timeTakenSeconds": 78,
+      "selectedAnswers": {
+        "dbms-1": 2,
+        "dbms-2": 2,
+        "dbms-3": 2
+      },
+      "markedForReview": [],
+      "userEmail": "alex.carter@edu.org"
+    }
+  ]
+}

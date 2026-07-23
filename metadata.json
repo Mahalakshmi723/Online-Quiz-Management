@@ -1,0 +1,6 @@
+{
+  "name": "Online Quiz Management System",
+  "description": "A modern, professional Online Quiz Management System for multiple-choice quizzes, featuring comprehensive student and admin dashboards, robust categories, interactive testing, and in-depth performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

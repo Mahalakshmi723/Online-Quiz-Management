@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #F9FAFB;
+  color: #1F2937;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom Clean Minimalism Utilities */
+.minimal-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.minimal-border {
+  border-color: #E5E7EB;
+}
+
+.text-dark {
+  color: #1F2937;
+}
+
+.text-muted {
+  color: #6B7280;
+}
